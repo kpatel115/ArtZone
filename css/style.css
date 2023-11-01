@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.splash{
+    height: 100vh;
+}
+.container{
+
+}
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+   }
+.wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 20px
+}
+.portrait{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.img0{
+
+}
+.img1{
+
+}
+.img2{
+    
+}
+.img3{
+    
+}
+.img4{
+    
+}
+.img5{
+    
+}
+.img6{
+    
+}
+.img7{
+    
+}
+.img8{
+    
+}
