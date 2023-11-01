@@ -11,7 +11,7 @@ img{
     display: block;
 }
 .splash{
-    height: 100vh;
+    height: auto;
 }
 .container{
 
@@ -31,38 +31,55 @@ img{
    }
 .wrapper{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr
     gap: 20px
 }
 .portrait{
-    border: 1px solid black;
-    border-radius: 8px;
 }
 .img0{
-
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .img1{
-
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 .img2{
-    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 .img3{
-    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .img4{
-    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 .img5{
-    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
-.img6{
-    
+
+
+
+@media only screen and (max-width: 768px)  {
+    /* 3 images */ 
+
 }
-.img7{
-    
-}
-.img8{
-    
+@media only screen and (max-width: 450px)  {
+    /* 2 images */ 
 }
