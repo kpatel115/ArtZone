@@ -100,7 +100,7 @@ portrait.addEventListener('mouseover', (event) => {
 })
 
 function displayData(data) {
-    const formattedData = JSON.stringify(data, null, 5);
+    const formattedData = JSON.stringify(data, null, "\n");
     const toast = document.getElementById('toast');
     toast.textContent = formattedData;
     toast.style.opacity = 1;
